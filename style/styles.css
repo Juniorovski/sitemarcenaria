@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    display: block;
+    background-color: #302e2e;
+    box-sizing: border-box;
+}
+
+.content {
+    display: block;
+    flex-direction: column;
+    background-image: url('../assets/cozinha_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 3%;
+    box-sizing: border-box;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: #0e0d0d;
+}
+
+a {
+    color: #181616;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.present {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.present h1 p {
+    width: 75%;
+}
+
+button {
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #fceb04;
+    color: #0e0d0d;
+    font-size: 1rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button:hover {
+    color: #e9dfdf;
+    background-color: gold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.info p {
+    color: #fceb04;
+}
+
+.grids {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 410px 410px 410px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #444242;
+    color: #e9dfdf;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 4px 2px 4px 2px  #111010 ;
+    
+}
+.card h3 p{
+     padding-left: 40px;
+     justify-content: center;
+     justify-items: center;
+     text-align: justify;
+    
+
+}
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.info-ambiente, .info-ambiente3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: #e9dfdf;
+    width: 80%;
+    
+}
+
+.card-info , .card-info3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    color: #e9dfdf;
+    margin-bottom: 40px;
+
+}
+
+.card-info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #e9dfdf;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.informacao, .informacao3 {
+display: block;
+justify-content: center;
+align-items: flex-start;
+color: #e9dfdf;
+ width: 50%;
+ height: 100%;
+ border: 1px #a09595;
+}
+.informacao, .informacao3 p{
+    text-align: justify;
+}
+
+.image-ambiente, .image-ambiente3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    padding-right: 40px;
+}
+.image-ambiente img , .image-ambiente3 img{
+     width: 70%;
+     border-radius: 5px;
+}
+
+
+
+.image-ambiente2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 30px;
+}
+
+.informacao2{
+display: block;
+justify-content: center;
+align-items: flex-end;
+color: #e9dfdf;
+ width: 50%;
+ height: 100%;
+ border: 1px #a09595;
+}
+
+.image-ambiente2 img{
+     width: 70%;
+     border-radius: 5px;
+}
+
+.sobre{
+     height: 400px;
+    padding-bottom: 20px;
+    background-image: url('/assets/cozinha_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 40px;
+    color: #e9dfdf;
+    margin-bottom: 40px;
+}
+.informacao-sobre{
+display: block;
+justify-content: center;
+align-items: flex-start;
+color: #e9dfdf;
+ width: 50%;
+ height: 100%;
+ border: 1px #a09595;
+ margin-top: 50px;
+}
+.image-sobre {
+     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    padding-left: 10px;
+}
+.image-sobre img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.content-projeto{
+    display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+.aside-left{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    justify-content: space-around;
+    gap: 10px;
+    width: 50%;
+}
+.img-left{
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ gap: 5px;
+ width: 100%;
+}
+
+.img-left img{
+ width: 100%;
+ height: 100%;
+}
+
+.img-left-2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+
+.img-left-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.aside-right{
+    display: grid;
+    grid-template-columns: 25% 25% 50% ;
+    justify-content: space-around;
+    gap: 10px;
+    width: 50%;
+}
+
+.img-right{
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ gap: 5px;
+ width: 100%;
+}
+
+.img-right img{
+ width: 100%;
+ height: 60%;
+}
+
+.img-right-2{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+
+.img-right-2 img{
+    width: 100%;
+    height: 90%;
+}

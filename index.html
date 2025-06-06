@@ -21,14 +21,14 @@
                         <span class="bar"></span>
                         <span class="bar"></span>
                     </button>
-                    
+
                     <ul class="nav-list" id="nav-list">
                         <li><a href="#home">Artigos</a></li>
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#clientes">Clientes</a></li>
                         <li><a href="#ambientes">Ambiente</a></li>
                         <li><a href="#projetos">Projetos</a></li>
-                         <button class="menu-close" id="menu-close">X</button>
+                        <button class="menu-close" id="menu-close">X</button>
                     </ul>
                 </nav>
 
@@ -147,7 +147,7 @@
                     impecável. Cada projeto é único — feito para refletir o seu estilo e valorizar seu espaço.</p>
                 <button>Quero fazer um Orçamento</button>
             </div>
-            
+
         </div>
     </div>
 
@@ -180,21 +180,24 @@
         </div>
     </div>
 
-    <footer></footer>
+    <footer>
+      
 
-    <script >const toggle = document.getElementById('menu-toggle');
-const navList = document.getElementById('nav-list');
-const fechar = document.getElementById('menu-close');
+    </footer>
 
-toggle?.addEventListener('click', () => {
-  navList?.classList.toggle('active');
-  toggle.classList.toggle('open');
-});
+    <script>const toggle = document.getElementById('menu-toggle');
+        const navList = document.getElementById('nav-list');
+        const fechar = document.getElementById('menu-close');
 
-fechar?.addEventListener('click', () => {
-  navList?.classList.remove('active');
-  toggle.classList.remove('open'); // fecha o hambúrguer se estiver animado
-});</script>
+        toggle?.addEventListener('click', () => {
+            navList?.classList.toggle('active');
+            toggle.classList.toggle('open');
+        });
+
+        fechar?.addEventListener('click', () => {
+            navList?.classList.remove('active');
+            toggle.classList.remove('open'); // fecha o hambúrguer se estiver animado
+        });</script>
 </body>
 
 </html>

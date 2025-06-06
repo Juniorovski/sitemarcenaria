@@ -32,7 +32,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: transparent;
+     background-color: rgba(29, 29, 28, 0.555);
     height: 100px;
 }
 
@@ -58,7 +58,7 @@ a:hover {
 }
 
 a {
-    color: #080808;
+    color: #f3ecec;
     font-size: 1.2rem;
 }
 
@@ -162,6 +162,8 @@ a {
     margin: 10px;
     color: #fff;
     padding-left: 40px;
+    background-color: rgba(29, 29, 28, 0.555);
+    border-radius: 5px;
 }
 
 .present h1 p {
@@ -408,7 +410,7 @@ color: #e9dfdf;
 
 .sobre {
     padding: 20px 10px;
-    background-image: url('/assets/cozinha_bg.png');
+    background-image: url('/assets/closet.jfif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -430,11 +432,18 @@ color: #e9dfdf;
 
 .informacao-sobre {
     color: #e9dfdf;
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     text-align: justify;
     margin-top: 20px;
+    background-color: rgba(29, 29, 28, 0.555);
+    display: block;
+    padding: 1.2rem;
+    border-radius: 5px;
+    
 }
+
+
 
 .image-sobre {
     display: flex;

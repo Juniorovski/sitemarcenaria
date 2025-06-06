@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <!--Pagina Home-->
     <div class="home" id="home">
         <div class="content">
             <header>
@@ -38,7 +39,7 @@
                 <h1>Móveis Planejados únicos e modernos feitos para seu lar</h1>
                 <p>Viva em um ambiente que reflete quem você é,<br> com móveis feitos para atender todas as suas
                     necessidades</p>
-                <button>Solicitar Orçamento</button>
+                <button class="orcamento">Solicitar Orçamento</button>
             </div>
         </div>
 
@@ -46,9 +47,10 @@
             <p>Móveis Planejados</p>
             <h3>A melhor opção de móveis planejados de Recife e Região</h3>
         </div>
-
+         
+        <!-- Cards -->
         <div class="grids">
-            <!-- Cards -->
+            
             <div class="card">
                 <img src="assets/certificate.png" alt="certificate">
                 <h3>Experiência na Área</h3>
@@ -97,7 +99,7 @@
                     pensado para valorizar o espaço, oferecer conforto e criar uma atmosfera acolhedora. Soluções sob
                     medida que
                     unem design moderno e praticidade para o seu dia a dia.</p>
-                <button>Começar com Sala</button>
+                <button class="orcamento">Começar com Sala</button>
             </div>
             <div class="image-ambiente">
                 <img src="assets/sala-planejada.jpg" alt="sala">
@@ -115,7 +117,7 @@
                     elegância,
                     organização e durabilidade para criar um espaço bonito e eficiente, adaptado ao seu estilo de vida.
                     Funcionalidade e beleza lado a lado.</p>
-                <button>Começar pela Cozinha</button>
+                <button class="orcamento">Começar pela Cozinha</button>
             </div>
         </div>
 
@@ -127,7 +129,7 @@
                     inteligentes e acabamento impecável. Descubra como é ter um ambiente exclusivo para armazenar,
                     cuidar e
                     valorizar cada peça do seu vestuário.</p>
-                <button>Começar pelo Closet</button>
+                <button class="orcamento">Começar pelo Closet</button>
             </div>
             <div class="image-ambiente3">
                 <img src="assets/closet.jfif" alt="closet">
@@ -145,7 +147,7 @@
                     qualidade. Nosso compromisso é transformar ambientes com criatividade, atenção aos detalhes e
                     acabamento
                     impecável. Cada projeto é único — feito para refletir o seu estilo e valorizar seu espaço.</p>
-                <button>Quero fazer um Orçamento</button>
+                <button class="orcamento">Quero fazer um Orçamento</button>
             </div>
 
         </div>
@@ -154,7 +156,7 @@
     <!-- Projetos -->
     <div class="projeto" id="projetos">
         <div class="info-projetos">
-            <h2>Veja alguns de nossos Projetos</h2>
+            <h2>Veja alguns de nossos Projetos que já executamos.</h2>
         </div>
 
         <div class="content-projeto">
@@ -164,14 +166,13 @@
                 </div>
                 <div class="img-left-2">
                     <img src="assets/sala-planejada.jpg" alt="sala">
-                    <img src="assets/closet.jfif" alt="closet">
+                
                 </div>
             </div>
 
             <div class="aside-right">
                 <div class="img-right-2">
                     <img src="assets/closet.jfif" alt="closet">
-                    <img src="assets/sala-planejada.jpg" alt="sala">
                 </div>
                 <div class="img-right">
                     <img src="assets/bg_cozinha.png" alt="cozinha">
@@ -179,9 +180,55 @@
             </div>
         </div>
     </div>
+  <!--Footer-->
+    <footer class="footer" id="footer">
+         <div class="card-footer">
+                <div class="informacao-footer">
+                    <span>Seus móveis dos sonhos, está com a gente.</span>
+                    <h2>Venha realizar seus sonhos conosco, você sonha nós realizamos!</h2>
+                    <button class="orcamento">Solicitar um Orçamento</button>
+                </div>
+            </div>
+        <div class="main-footer" id="main-footer">
+           
+            <div class="detalhes-footer">
+                <div class="sobre-footer">
+                    <h3>Sobre Nós</h3>
+                    <p>Especialistas em móveis planejados. <br>
+                       Transformamos ambientes com design. <br>
+                        Qualidade e funcionalidade.</p>
 
-    <footer>
-      
+                </div>
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>📍 Recife, PE</li>
+                        <li>📞 (81) 99999-9999</li>
+                        <li>📧 contato@marcenariaexemplo.com</li>
+                    </ul>
+
+                </div>
+                <div class="redes-sociais">
+                    <h3>Siga nas redes</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/seuusuario"><img class="logos" src="assets/instagram-brands.svg" alt="instagram"> instagram</a></li>
+                        <li><a href="https://www.facebook.com/seupagina"><img src="assets/facebook-brands.svg" alt="facebook" class="logos">facebook</a></li>
+                        <li><a href="https://wa.me/558188090976"> <img src="assets/whatsapp-brands.svg" alt="whatsapp" class="logos">whatsapp</a> </li>
+                    </ul>
+
+                </div>
+                <div class="paginas">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home"><span>Início</span></a></li>
+                    <li><a href="#ambientes"><span>Ambientes</span></a></li>
+                    <li><a href="#projetos"><span>Projetos</span></a></li>
+                    <li><a href="#sobre"><span>Sobre</span></a></li>
+                </ul>
+                </div>
+            </div>
+              <p>&copy; 2025 Móveis palnejados. Todos os direitos reservados.</p>
+        </div>
 
     </footer>
 
@@ -192,11 +239,16 @@
         toggle?.addEventListener('click', () => {
             navList?.classList.toggle('active');
             toggle.classList.toggle('open');
+            navList.style.display = "flex";
+            toggle.style.display = 'none';
         });
 
         fechar?.addEventListener('click', () => {
             navList?.classList.remove('active');
-            toggle.classList.remove('open'); // fecha o hambúrguer se estiver animado
+            toggle.classList.remove('open');
+            navList.style.display = 'none';
+            toggle.style.display = 'flex'
+            // fecha o hambúrguer se estiver animado
         });</script>
 </body>
 

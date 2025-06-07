@@ -14,6 +14,14 @@ body {
     background-color: #0e0d0d;
     box-sizing: border-box;
 }
+@media(max-width:768px){
+  .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+}
 
 .content {
     display: flex;
@@ -137,7 +145,7 @@ header {
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
-    
+    display: none;
   }
 
  
@@ -446,6 +454,19 @@ color: #e9dfdf;
 } 
 }
 
+@media(max-width:768px){
+  .card-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e9dfdf;
+    width: 90%;
+    gap: 20px;
+    margin: auto;
+}
+}
+
 .sobre {
     
     width: 100%;
@@ -702,7 +723,7 @@ color: #e9dfdf;
   display: block;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  
   
 }
   .main-footer{
@@ -711,20 +732,21 @@ color: #e9dfdf;
     justify-content: flex-start;
   }
   .detalhes-footer{
-  display: block;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 5px;
   
 }
 .redes-sociais {
-  display: block;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 5px;
 }
-.redes-sociais a {
+.redes-sociais a img{
   justify-content:flex-start;
-  margin-top: 20px;
+  align-items: center;
+  margin-top:5px;
 }
 }

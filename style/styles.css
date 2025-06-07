@@ -284,11 +284,13 @@ a {
     .grids {
     display: flex;
     flex-direction: column;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     gap: 12px;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    margin:auto ;
+    width: 96%;
 }
   .card {
     display: flex;
@@ -719,6 +721,10 @@ color: #e9dfdf;
   display: block;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 20px;
+}
+.redes-sociais a {
+  justify-content:flex-start;
   margin-top: 20px;
 }
 }

@@ -4,7 +4,7 @@ Site institucional moderno e responsivo para uma empresa especializada em móvei
 
 ## 🔗 Demonstração
 
-[👉 Acesse a versão online (exemplo)](https://seusite.com)
+[👉 Acesse a versão online (exemplo)](https://juniorovski.github.io/sitemarcenaria/)
 
 ![Screenshot](./assets/screenshot-home.png)
 
